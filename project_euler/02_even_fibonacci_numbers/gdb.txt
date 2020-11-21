@@ -1,0 +1,12 @@
+#Debugger input script
+break end_program
+run
+set pagination off
+set logging file out.txt
+set logging overwrite
+set logging on
+set prompt
+info registers r8
+set logging off
+continue
+quit
